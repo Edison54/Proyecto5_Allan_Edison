@@ -1,0 +1,22 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* Ajustes globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Ajustes al body */
+main {
+    min-height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+.fondo {
+    background-image: url("https://www.ecestaticos.com/imagestatic/clipping/1ef/c58/1efc58338e52982ad1390a9b7ace9e69/los-libros-que-debes-leer-en-2018-segun-los-200-000-empleados-de-jp-morgan.jpg?mtime=1622783924"); /* The image used */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  
+}
